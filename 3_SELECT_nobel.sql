@@ -50,8 +50,12 @@ SELECT *
 FROM nobel
 WHERE winner = 'Eugene O''Neill'
 
-SELECT *
+SELECT winner, yr, subject
 FROM nobel
 WHERE winner LIKE 'sir%'
 ORDER BY yr DESC, winner
+
+
+
+
 
